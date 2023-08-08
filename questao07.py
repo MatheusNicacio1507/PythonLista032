@@ -8,4 +8,4 @@ valor = float(input("Qual o valor da compra? "))
 prest = float(input("Qual o número de prestações escolhidas? "))
 valor2 = valor / prest
 
-print(f"O valor das prestações é = R${valor2}")
+print(f"O valor de cada prestaçãos é: R${valor2:.2f}")
