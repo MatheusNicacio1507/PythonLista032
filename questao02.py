@@ -5,8 +5,8 @@ minutos atuais. Exemplo, se agora são 09:35h o usuário deverá informar como r
 quantos minutos já se passaram desde às 00:00h deste dia.
 '''
 
-horas = float(input("Qual a hora atual?: "))
-minutos = float(input("Qual o minuto atual?: "))
+horas = int(input("Qual o valor da hora atual?: "))
+minutos = int(input("Qual o valor do minuto atual?: "))
 
 horas = horas * 60
 
