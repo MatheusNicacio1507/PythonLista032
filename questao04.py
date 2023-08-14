@@ -12,4 +12,4 @@ alt = float(input("Qual sua altura, em metros? "))
 
 imc = peso / math.pow(alt,2)
 
-print(f"Seu IMC é de: {imc}")
+print(f"Seu IMC é de: {imc:.0f}")
